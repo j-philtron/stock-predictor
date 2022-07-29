@@ -1,0 +1,8 @@
+name: stock-predictor
+dependencies:
+  - python=3.8
+  - conda
+  - pip
+  - pip:
+    - fastapi 
+    - uvicorn
