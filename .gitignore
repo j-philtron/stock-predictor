@@ -1,3 +1,6 @@
+# My secret files
+stock-predictor-fastapi.pem
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
