@@ -38,3 +38,34 @@ curl \
 --data '{"ticker":"MSFT", "days":7}' \
 http://34.223.219.65:8000/predict
 ```
+
+## Dockerfile
+
+This section explains how to build the docker container image, start it, and test it.
+
+To build the docker image, use:
+`docker build -t stock-prophet .`
+
+To verify that the image has been built, use:
+`docker image -ls # docker images`
+
+Before starting the container, verify that nothing is running on your localhost on the port we will use, you should get an error when you run:
+`curl localhost:8000`
+
+To start the container, use:
+`docker run -d --name mycontainer -p 8000:8000 stock-prophet`
+
+To verify the container is running, use:
+`docker ps -a`
+
+We can interact with the API using /ping or /predict to verify that it is working properly. If we use `curl localhost:8000/ping` we get the response {"ping":"pong!"}. We can also get stock predictions using the proper input syntax, such as:
+```
+curl \
+--header "Content-Type: application/json" \
+--request POST \
+--data '{"ticker":"MSFT", "days":7}' \
+http://localhost:8000/predict
+```
+
+After you are done, remember to stop the container, using:
+`docker stop mycontainer`
