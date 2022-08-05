@@ -1,0 +1,70 @@
+aiohttp==3.8.1
+aiosignal==1.2.0
+anyio==3.6.1
+appdirs==1.4.4
+async-timeout==4.0.2
+attrs==22.1.0
+brotlipy==0.7.0
+certifi @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_83242e7e-f82d-4a71-8ef2-9d71d212d249gu_wxmeq/croots/recipe/certifi_1655968827803/work/certifi
+cffi @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/croot-2p6q7e2r/cffi_1642701115063/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click==8.1.3
+clikit==0.6.2
+cmdstanpy==1.0.4
+conda==4.13.0
+conda-package-handling @ file:///opt/concourse/worker/volumes/live/8e46ff7c-1b09-4c05-6412-71394fdb1938/volume/conda-package-handling_1649105798380/work
+convertdate==2.4.0
+crashtest==0.3.1
+cryptography @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_b470f7cb-c8f1-42c9-b84f-23789ea77e7c9difcqh4/croots/recipe/cryptography_1652101134392/work
+cycler==0.11.0
+Cython==0.29.31
+ephem==4.1.3
+fastapi==0.79.0
+fonttools==4.34.4
+frozenlist==1.3.0
+h11==0.13.0
+hijri-converter==2.2.4
+holidays==0.14.2
+httpstan==4.8.0
+idna @ file:///tmp/build/80754af9/idna_1637925883363/work
+joblib==1.1.0
+kiwisolver==1.4.4
+korean-lunar-calendar==0.2.1
+LunarCalendar==0.0.9
+lxml==4.9.1
+marshmallow==3.17.0
+matplotlib==3.5.2
+multidict==6.0.2
+multitasking==0.0.11
+numpy==1.23.1
+packaging==21.3
+pandas==1.4.3
+pastel==0.2.1
+Pillow==9.2.0
+prophet==1.1
+pycosat==0.6.3
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pydantic==1.9.1
+pylev==1.4.0
+PyMeeus==0.5.11
+pyOpenSSL @ file:///opt/conda/conda-bld/pyopenssl_1643788558760/work
+pyparsing==3.0.9
+pysimdjson==3.2.0
+PySocks @ file:///opt/concourse/worker/volumes/live/85a5b906-0e08-41d9-6f59-084cee4e9492/volume/pysocks_1594394636991/work
+pystan==3.5.0
+python-dateutil==2.8.2
+pytz==2022.1
+requests @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_516b78ce-034d-4395-b9b5-1d78c2847384qtnol99l/croots/recipe/requests_1657734628886/work
+ruamel-yaml-conda @ file:///opt/concourse/worker/volumes/live/53b096c9-f5b7-4029-7f1b-056927554e08/volume/ruamel_yaml_1616016691174/work
+setuptools-git==1.2
+six==1.16.0
+sniffio==1.2.0
+starlette==0.19.1
+tqdm @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_6cb3db64-b7e1-4db2-ab0b-f944920e5367lekntvc5/croots/recipe/tqdm_1650891088614/work
+typing-extensions==4.3.0
+ujson==5.4.0
+urllib3 @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_92f3a881-8cf4-469b-8319-736ffa3c6d61ordl4zjw/croots/recipe/urllib3_1650639998913/work
+uvicorn==0.18.2
+webargs==8.2.0
+yarl==1.7.2
+yfinance==0.1.74
